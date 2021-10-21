@@ -5,7 +5,7 @@ let package = Package(
     name: "BinarySwift",
     platforms: [
         .macOS("10.9"),
-        .iOS("8.0"),
+        .iOS("9.0"),
     ],
     products: [
         .library(name: "BinarySwift", targets: ["BinarySwift"]),
