@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "BinarySwift"
-  s.version      = "0.9.5"
+  s.version      = "0.9.6"
   s.summary      = "BinarySwift is a pure-swift library for parsing binary data."
 
   s.description  = <<-DESC
@@ -25,10 +25,10 @@ Pod::Spec.new do |s|
 
   s.author    = "Łukasz Kwoska"
 
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "9.0"
   s.osx.deployment_target = "10.9"
 
-  s.source       = { :git => "https://github.com/Szaq/BinarySwift.git", :tag => "v0.9.5" }
+  s.source       = { :git => "https://github.com/PrimeGoose/BinarySwift", :tag => "0.9.6" }
   s.source_files  = "Sources/BinarySwift/*.swift"
 
 end
